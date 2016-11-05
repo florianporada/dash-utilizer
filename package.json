@@ -1,0 +1,23 @@
+{
+  "name": "dash-utilizer",
+  "version": "0.0.1",
+  "description": "utilize your amazon dash button for anything...at some point, hopefully",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scan": "dash-button scan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianporada/dash-utilizer.git"
+  },
+  "author": "florian porada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/florianporada/dash-utilizer/issues"
+  },
+  "homepage": "https://github.com/florianporada/dash-utilizer#readme",
+  "dependencies": {
+    "dash-button": "^2.0.0",
+  }
+}
