@@ -1,23 +1,40 @@
 {
-  "name": "dash-utilizer",
+  "name": "amazon-dash-utilizer",
   "version": "0.0.1",
   "description": "utilize your amazon dash button for anything...at some point, hopefully",
-  "main": "app.js",
+  "main": "index.js",
+  "dependencies": {
+    "node-dash-button": "^0.6.1",
+    "request": "^2.81.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.5.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scan": "dash-button scan"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/florianporada/dash-utilizer.git"
   },
-  "author": "florian porada",
+  "keywords": [
+    "amazon",
+    "dash",
+    "button"
+  ],
+  "author": "florian porada <florian.porada@gmail.com> (“http://everydayweekend.net/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/florianporada/dash-utilizer/issues"
   },
   "homepage": "https://github.com/florianporada/dash-utilizer#readme",
-  "dependencies": {
-    "dash-button": "^2.0.0",
+  "engines": {
+    "node": ">=4.2.4"
   }
 }
