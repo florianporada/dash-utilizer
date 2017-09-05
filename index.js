@@ -8,7 +8,7 @@ const Ifttt = require('./components/ifttt');
 const dash = dashButton(config.DASH_BUTTON_MAC, null, null, 'all');
 const ifttt = new Ifttt();
 const options = {
-  event: config.IFTT_EVENT_NAME,
+  event: config.IFTTT_EVENT_NAME,
   value1: 'hello',
   value2: 'world',
   value3: '!',
