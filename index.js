@@ -14,7 +14,7 @@ const options = {
   value3: '!',
 };
 
-winston.log('info', 'dash mac: ', 'AC:63:BE:DA:24:DB');
+winston.log('info', 'dash mac: ', config.DASH_BUTTON_MAC);
 
 dash.on('detected', () => {
   ifttt.start(options);
